@@ -28,6 +28,13 @@
 
 .display-npc-root .card {
   margin-bottom: 20px;
+  border: none;
+  background-color: rgba(46, 56, 55, 0.5);
+  border-radius: 8px;
+  color: var(--bs-white);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  padding-bottom: 23px;
+  padding-top: 23px;
 }
 
 .display-npc-root {

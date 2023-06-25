@@ -21,6 +21,7 @@ const professions = getTableReferenceOptions("profession");
 
 const professionCategories: { [prof: string]: NamedOption[] } = {
   learned: getNamedTableOptions("learned"),
+  leader: getNamedTableOptions("leader"),
   lesserNobility: getNamedTableOptions("lesserNobility"),
   professional: getNamedTableOptions("professional"),
   workClass: getNamedTableOptions("workClass"),
@@ -70,7 +71,7 @@ const userOptions: {
     options: (npcOptions) => subraces[races[npcOptions.race || 0].table],
   },
   {
-    label: "Sex",
+    label: "Gender",
     optionName: "gender",
     options: genders,
   },

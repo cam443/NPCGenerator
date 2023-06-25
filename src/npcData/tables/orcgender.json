@@ -1,4 +1,6 @@
 [
-  { "w": 1, "v": "{male}{maleorcname}{orcsurname}" },
-  { "w": 1, "v": "{female}{femaleorcname}{orcsurname}" }
+  { "w": 25, "v": "{male}{maleorcname}{orcsurname}" },
+  { "w": 25, "v": "{female}{femaleorcname}{orcsurname}" },
+  { "w": 1, "v": "{nonbinary}{maleorcname}{orcsurname}" },
+  { "w": 1, "v": "{nonbinary}{femaleorcname}{orcsurname}" }
 ]

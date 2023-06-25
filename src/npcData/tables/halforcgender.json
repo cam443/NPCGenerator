@@ -1,6 +1,19 @@
 [
-  { "w": 1, "v": "{male}{malehumanname}{humansurname}" },
-  { "w": 1, "v": "{female}{femalehumanname}{humansurname}" },
-  { "w": 1, "v": "{male}{maleorcname}{orcsurname}" },
-  { "w": 1, "v": "{female}{femaleorcname}{orcsurname}" }
+  { "w": 50, "v": "{male}{malehumanname}{humansurname}" },
+  { "w": 50, "v": "{female}{femalehumanname}{humansurname}" },
+  { "w": 5, "v": "{nonbinary}{malehumanname}{humansurname}" },
+  { "w": 5, "v": "{nonbinary}{femalehumanname}{humansurname}" },
+  { "w": 5, "v": "{nonbinary}{maleorcname}{orcsurname}" },
+  { "w": 5, "v": "{nonbinary}{femaleorcname}{orcsurname}" },
+  { "w": 1, "v": "{nonbinary}{malehumanname}{orcsurname}" },
+  { "w": 1, "v": "{nonbinary}{femalehumanname}{orcsurname}" },
+  { "w": 1, "v": "{nonbinary}{maleorcname}{humansurname}" },
+  { "w": 1, "v": "{nonbinary}{femaleorcname}{humansurname}" },
+  { "w": 50, "v": "{male}{maleorcname}{orcsurname}" },
+  { "w": 50, "v": "{female}{femaleorcname}{orcsurname}" },
+  { "w": 25, "v": "{male}{malehumanname}{orcsurname}" },
+  { "w": 25, "v": "{female}{femalehumanname}{orcsurname}" },
+  { "w": 25, "v": "{male}{maleorcname}{humansurname}" },
+  { "w": 25, "v": "{female}{femaleorcname}{humansurname}" }
+
 ]

@@ -1,4 +1,6 @@
 [
-  { "w": 1, "v": "{male}{dragonbornname}" },
-  { "w": 1, "v": "{female}{dragonbornname}" }
+  { "w": 25, "v": "{male}{dragonbornname}" },
+  { "w": 25, "v": "{female}{dragonbornname}" },
+  { "w": 1, "v": "{nonbinary}{dragonbornname}" },
+  { "w": 1, "v": "{nonbinary}{dragonbornname}" }
 ]

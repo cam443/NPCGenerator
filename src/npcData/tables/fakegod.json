@@ -1,0 +1,17 @@
+[
+  { "w": 1, "v": "{$fakegod=Chauntea}{%good+2}{%ethicalneutral+2}" },
+  { "w": 1, "v": "{$fakegod=Lathander}{%good+2}{%ethicalneutral+2}" },
+  { "w": 1, "v": "{$fakegod=Mystra}{%good+2}{%ethicalneutral+2}" },
+  { "w": 1, "v": "{$fakegod=Oghma}{%moralneutral+2}" },
+  {
+    "w": 1,
+    "v": "{$fakegod=Selune}{%good+2}{%ethicalneutral+2}"
+  },
+  { "w": 1, "v": "{$fakegod=Silvanus}{%moralneutral+2}{%ethicalneutral+2}" },
+  { "w": 1, "v": "{$fakegod=Sune}{%chaotic+2}{%good+2}" },
+  { "w": 1, "v": "{$fakegod=Torm}{%lawful+2}{%good+2}" },
+  { "w": 1, "v": "{$fakegod=Helm}{%lawful+2}{%good+2}" },
+  { "w": 1, "v": "{$fakegod=Tyr}{%lawful+2}{%good+2}" },
+  { "w": 1, "v": "{$fakegod=The Raven Queen}{%moralneutral+2}{%lawful+2}" },
+  { "w": 1, "v": "{$fakegod=Kelemvor}{%moralneutral+2}{%lawful+2}" }
+]

@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import Footer from "./Footer";
 import NpcData from "./NpcData";
 import { generate, printDebugGen } from "./npcData/generate";
-import { Npc, NpcGenerateOptions } from "./npcData/index";
+import { Npc, NpcGenerateOptions, getAlignment } from "./npcData/index";
 import UserInput from "./UserInput";
 
 interface IState {
@@ -22,6 +22,7 @@ export default class DisplayNpc extends Component<{}, IState> {
       try {
         const crushedJson = url.searchParams.get("d") || "";
         const npc = JSON.parse(jsoncrush.uncrush(decodeURIComponent(crushedJson)));
+        npc.overallAlignment = getAlignment(npc.alignment); // add this line
         this.state = { npc };
         loadedQueryData = true;
       } catch (e) {
@@ -33,6 +34,7 @@ export default class DisplayNpc extends Component<{}, IState> {
     // Generate initial npc, if we didn't load data from url query
     if (!loadedQueryData) {
       const { npc, debugNode } = generate({});
+      npc.overallAlignment = getAlignment(npc.alignment); // add this line
       printDebugGen(debugNode);
       this.state = { npc };
     }
@@ -42,6 +44,7 @@ export default class DisplayNpc extends Component<{}, IState> {
 
   generateNpc(options: NpcGenerateOptions) {
     const { npc, debugNode } = generate(options);
+    npc.overallAlignment = getAlignment(npc.alignment); // add this line
     printDebugGen(debugNode);
     this.setState({ npc });
   }
@@ -61,7 +64,6 @@ export default class DisplayNpc extends Component<{}, IState> {
             </Col>
             <Col sm={12} md={7} lg={9}>
               <NpcData npc={this.state.npc} />
-              <Footer />
             </Col>
           </Row>
         </div>

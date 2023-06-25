@@ -1,14 +1,15 @@
 import { Component } from "react";
+import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-import { Npc, NpcAbilities } from "./npcData/index";
+import { Npc, NpcAbilities, getAlignment } from "./npcData/index";
 
 const abilities: { key: keyof NpcAbilities; name: string }[] = [
-  { key: "str", name: "Strength" },
-  { key: "dex", name: "Dexterity" },
-  { key: "con", name: "Constitution" },
-  { key: "int", name: "Intellect" },
-  { key: "wis", name: "Wisdom" },
-  { key: "cha", name: "Charisma" },
+  { key: "str", name: "STR" },
+  { key: "dex", name: "DEX" },
+  { key: "con", name: "CON" },
+  { key: "int", name: "INT" },
+  { key: "wis", name: "WIS" },
+  { key: "cha", name: "CHA" },
 ];
 
 function toFeet(n: number) {
@@ -38,6 +39,8 @@ export default class NpcData extends Component<IProps> {
     }
 
     const majP = npc.description.pronounCapit;
+    const haveHas = npc.description.haveHas;
+    const nbS = npc.description.nbS;
     //const minP = npc.description.pronounMinus;
     const quirksArray = npc.pquirks.description.split(".");
     quirksArray.length--;
@@ -82,20 +85,20 @@ export default class NpcData extends Component<IProps> {
                 </p>
                 <p hidden>#</p>
                 <p>
-                  {majP}has {npc.physical.hair}
+                  {majP}{haveHas} {npc.physical.hair}
                   {npc.physical.eyes}.
                 </p>
                 <p hidden>#</p>
                 <p>
-                  {majP}has {npc.physical.skin}.
+                  {majP}{haveHas} {npc.physical.skin}.
                 </p>
                 <p hidden>#</p>
                 <p>
-                  {majP}stands {npc.physical.height}cm ({toFeet(npc.physical.height)}) tall and has {npc.physical.build}.
+                  {majP}stand{nbS} {npc.physical.height}cm ({toFeet(npc.physical.height)}) tall and {haveHas} {npc.physical.build}.
                 </p>
                 <p hidden>#</p>
                 <p>
-                  {majP}has {npc.physical.face}.
+                  {majP}{haveHas} {npc.physical.face}.
                 </p>
                 <p hidden>#</p>
                 {specialPhysical1}
@@ -158,17 +161,14 @@ export default class NpcData extends Component<IProps> {
               <Card.Header>Relationships</Card.Header>
               <Card.Body>
                 <p hidden>#</p>
-                <p>
-                  <b>Sexual Orientation </b>
-                </p>
+                  <b>Sexual Orientation </b> - {npc.relationship.orientation}
                 <p hidden>- </p>
-                <p>{npc.relationship.orientation}</p>
                 <p hidden>#</p>
+                <p> </p>
                 <p>
-                  <b>Relationship Status </b>
+                  <b>Relationship Status </b> - {npc.relationship.status}
                 </p>
                 <p hidden>- </p>
-                <p>{npc.relationship.status}</p>
                 <p hidden>#</p>
                 <p hidden>#</p>
               </Card.Body>
@@ -176,7 +176,7 @@ export default class NpcData extends Component<IProps> {
           </Col>
           <Col md={12} lg={12} xl={4} className="col-print-4">
             <Card className="second-row-height">
-              <Card.Header>Alignment Tendencies</Card.Header>
+              <Card.Header>Alignment: {npc.overallAlignment}</Card.Header>
               <Card.Body>
                 <p hidden>#</p>
                 <table className="alignment-table">

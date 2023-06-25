@@ -1,5 +1,6 @@
 [
-  { "w": 80, "v": "Straight" },
-  { "w": 5, "v": "Gay" },
-  { "w": 3, "v": "Bisexual" }
+  { "w": 75, "v": "Straight" },
+  { "w": 15, "v": "Gay" },
+  { "w": 10, "v": "Bisexual" },
+  { "w": 5, "v": "Asexual" }
 ]

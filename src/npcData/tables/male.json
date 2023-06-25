@@ -1,1 +1,1 @@
-[{ "w": 1, "v": "{$gender=male}{$majPro=He }{$minPro=he }{$workGender=man}{$majPoss=His }{$minPoss=his }{$minHim=him}" }]
+[{ "w": 1, "v": "{$gender=male}{$majPro=He }{$minPro=he }{$workGender=man}{$majPoss=His }{$minPoss=his }{$minHim=him}{$isAre=is }{$haveHas=has }{$nbS=s}{$nbDont=esn't}" }]

@@ -1,4 +1,5 @@
 [
   { "w": 3, "v": "{$god=Moradin}{$goddescr=, God of dwarves, creation, smithing, protection, metalcraft, stonework. (Lawful Good)}" },
+  { "w": 1, "v": "{$god=Dumathoin}{$goddescr=, Dwarf God of buried secrets (True Neutral)}" },
   { "w": 2, "v": "{humangod}" }
 ]

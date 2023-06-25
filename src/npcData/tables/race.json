@@ -105,7 +105,7 @@
     "w": 4,
     "name": "Tiefling",
     "table": "tiefling",
-    "v": "{$race=tiefling}{%con-1}{%int+2}{%cha+3}{%chaotic+3}{lightweight}{humangod}{tieflinggoodorevil}{tieflingskin}{beard}{age}{gender}{ageBonus}"
+    "v": "{$race=tiefling}{%con-1}{%int+2}{%cha+3}{%chaotic+3}{lightweight}{humangod}{tieflinggoodorevil}{tieflingskin}{beard}{age}{tieflinggender}{ageBonus}"
   },
   {
     "w": 4,

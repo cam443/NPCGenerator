@@ -1,4 +1,6 @@
 [
-  { "w": 1, "v": "{male}{maletritonname}{tritonsurname}" },
-  { "w": 1, "v": "{female}{femaletritonname}{tritonsurname}" }
+  { "w": 25, "v": "{male}{maletritonname}{tritonsurname}" },
+  { "w": 25, "v": "{female}{femaletritonname}{tritonsurname}" },
+  { "w": 1, "v": "{nonbinary}{maletritonname}{tritonsurname}" },
+  { "w": 1, "v": "{nonbinary}{femaletritonname}{tritonsurname}" }
 ]

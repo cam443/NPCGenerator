@@ -1,13 +1,34 @@
 [
   { "w": 1, "v": "{$god=Talos}{%evil+2}{%chaotic+2}{$goddescr=, God of storms, destruction, rebellion, conflagration, earthquakes, vortices. (Chaotic Evil)}" },
+  { "w": 1, "v": "{$god=Tharizdun}{%evil+2}{%chaotic+2}{$goddescr=, God of madness, destruction, and eternal darkness. (Chaotic Evil)}" },
+  { "w": 1, "v": "{$god=Beshaba}{%evil+2}{%chaotic+2}{$goddescr=, Goddess of misfortune and ill fate. (Chaotic Evil)}" },
+  { "w": 1, "v": "{$god=Malar}{%evil+2}{%chaotic+2}{$goddescr=, God of the hunt, beasts, and lycanthropy. (Chaotic Evil)}" },
+  { "w": 1, "v": "{$god=Umberlee}{%evil+2}{%chaotic+2}{$goddescr=, Goddess of the sea, the depths, and storms. (Chaotic Evil)}" },
   { "w": 1, "v": "{$god=Asmodeus}{%lawful+2}{%evil+2}{$goddescr=, God of sin, King of the Nine Hells. (Lawful Evil)}" },
   { "w": 1, "v": "{$god=Bane}{%lawful+2}{%evil+2}{$goddescr=, God of hatred, fear and tiranny. (Lawful Evil)}" },
   { "w": 1, "v": "{$god=Cyric}{%chaotic+2}{%evil+2}{$goddescr=, God of murder, lies, intrigue, strife, deception, illusion. (Chaotic Evil)}" },
   { "w": 1, "v": "{$god=Lolth}{%chaotic+2}{%evil+2}{$goddescr=, Goddess of drows, spiders, darkness, chaos, evil, assassination. (Chaotic Evil)}" },
+  { "w": 1, "v": "{$god=Vecna}{%chaotic+2}{%evil+2}{$goddescr=, God of whispers, secrets, and lies. (Neutral Evil)}" },
   {
     "w": 1,
-    "v": "{$god=Shar}{%evil+2}{%ethicalneutral+2}{$goddescr=, Goddess of dark, night, loss, forgetfulness, unrevealed secrets, caverns, dungeons, the Underdark.(NE)}"
+    "v": "{$god=Shar}{%evil+2}{%ethicalneutral+2}{$goddescr=, Goddess of dark, night, loss, forgetfulness, unrevealed secrets, caverns, dungeons, the Underdark. (Neutral Evil)}"
   },
+  {
+    "w": 1,
+    "v": "{$god=Bhaal}{%evil+2}{%ethicalneutral+2}{$goddescr=, God of murder and death. (Neutral Evil)}"
+  },
+  {
+    "w": 1,
+    "v": "{$god=Myrkul}{%evil+2}{%ethicalneutral+2}{$goddescr=, God of death, decay, old age, exhaustion, dusk, and autumn. (Neutral Evil)}"
+  },
+  {
+    "w": 1,
+    "v": "{$god=Mask}{%chaotic+2}{%ethicalneutral+2}{$goddescr=, God of ne'er-do-wells, spies, and thieves. (Chaotic Neutral)}"
+  },
+  { "w": 1, "v": "{$god=Tiamat}{%lawful+2}{%evil+2}{$goddescr=, Goddess of evil dragons. (Lawful Evil)}" },
+  { "w": 1, "v": "{$god=Deep Duerra}{%lawful+2}{%evil+2}{$goddescr=, Duergar Goddess of conquest and psionics. (Lawful Evil)}" },
+  { "w": 1, "v": "{$god=Loviatar}{%lawful+2}{%evil+2}{$goddescr=, Goddess of pain, torture, and suffering. (Lawful Evil)}" },
+  { "w": 1, "v": "{$god=Maglubiyet}{%lawful+2}{%evil+2}{$goddescr=, Goblinoid God of leadership and war. (Lawful Evil)}" },
   { "w": 2, "v": "{demongod}" },
   { "w": 2, "v": "{devilgod}" }
 ]

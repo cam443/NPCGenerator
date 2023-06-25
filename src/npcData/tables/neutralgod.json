@@ -1,0 +1,15 @@
+[
+  { "w": 1, "v": "{$god=The Raven Queen}{%moralneutral+2}{%lawful+2}{$goddescr=, Goddess of death, fate, and winter. (Lawful Neutral)}" },
+  { "w": 1, "v": "{$god=Leira}{%moralneutral+2}{%chaotic+2}{$goddescr=, Goddess of illusion, enigmas, and confusion. (Chaotic Neutral)}" },
+  { "w": 1, "v": "{$god=Amaunator}{%moralneutral+2}{%lawful+2}{$goddescr=, God of the sun, law, and oaths. (Lawful Neutral)}" },
+  { "w": 1, "v": "{$god=Hoar}{%moralneutral+2}{%lawful+2}{$goddescr=, God of revenge and retribution. (Lawful Neutral)}" },
+  { "w": 1, "v": "{$god=Jergal}{%moralneutral+2}{%lawful+2}{$goddescr=, Scribe of the dead, former God of death in all forms. (Lawful Neutral)}" },
+  { "w": 1, "v": "{$god=The Red Knight}{%moralneutral+2}{%lawful+2}{$goddescr=, Goddess of planning and strategy. (Lawful Neutral)}" },
+  { "w": 1, "v": "{$god=Gond}{%moralneutral+2}{%ethicalneutral+2}{$goddescr=, God of artifice, craft, and construction. (True Neutral)}" },
+  { "w": 1, "v": "{$god=Ioun}{%moralneutral+2}{%ethicalneutral+2}{$goddescr=, Goddess of knowledge. (True Neutral)}" },
+  { "w": 1, "v": "{$god=Silvanus}{%moralneutral+2}{%ethicalneutral+2}{$goddescr=, God of wild nature, druids. (True Neutral)}" },
+  { "w": 1, "v": "{$god=Boccob}{%moralneutral+2}{%ethicalneutral+2}{$goddescr=, God of magic, arcane knowledge, balance, and foresight. (True Neutral)}" },
+  { "w": 1, "v": "{$god=Waukeen}{%moralneutral+2}{%ethicalneutral+2}{$goddescr=, Goddess of wealth and trade. (True Neutral)}" },
+  { "w": 1, "v": "{$god=Oghma}{%moralneutral+2}{%ethicalneutral+2}{$goddescr=, God of knowledge, invention, inspiration, bards. (True Neutral)}" },
+  { "w": 1, "v": "{$god=Kelemvor}{%moralneutral+2}{%lawful+2}{$goddescr=, God of death and the dead. (Lawful Neutral)}" }
+]

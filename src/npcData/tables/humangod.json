@@ -1,5 +1,6 @@
 [
   { "w": 70, "v": "{goodgod}" },
+  { "w": 30, "v": "{neutralgod}" },
   { "w": 5, "v": "{evilgod}" },
   { "w": 1, "v": "{dragongod}" },
   { "w": 1, "v": "{drowgod}" },

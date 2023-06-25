@@ -11,7 +11,11 @@
       "race": "{$race}",
       "occupation": "{$occupation}",
       "pronounMinus": "{$minPro}",
-      "pronounCapit": "{$majPro}"
+      "pronounCapit": "{$majPro}",
+      "haveHas": "{$haveHas}",
+      "isAre": "{$isAre}",
+      "nbS": "{$nbS}",
+      "badgod": "{$badgod}"
     },
     "physical": {
       "hair": "{$hair}",
@@ -36,9 +40,10 @@
       "status": "{relationshipstatus}"
     },
     "religion": {
-      "description": [
-        { "w": 8, "v": "{$majPro}{$worship} worships {$god}{$goddescr}" },
-        { "w": 1, "v": "{$majPro}doesn't worship any god." }
+      "description": 
+      [
+        { "w": 8, "v": "{$name} {$worship} worships {$god}{$goddescr}" },
+        { "w": 1, "v": "{$majPro}do{$nbDont} worship any god." }
       ]
     },
     "ptraits": {

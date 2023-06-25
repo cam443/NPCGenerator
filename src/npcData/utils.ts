@@ -307,6 +307,7 @@ export const operators: {
             isNumber(options.occupation2) &&
             options.classorprof === 1 &&
             (tablename === "learned" ||
+              tablename === "leader" ||
               tablename === "lesserNobility" ||
               tablename === "professional" ||
               tablename === "workClass" ||
